@@ -15,7 +15,7 @@ public class TestJs {
 
     @Test
     public void testLaunch() throws  Exception{
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Sagar\\Softwares\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.softpost.org");
 
