@@ -12,7 +12,7 @@ public class ExceptionTest {
 
     @Test
     public void testLaunch(){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Sagar\\Softwares\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/index.php");
         driver.findElement(By.xpath("jk]")).click();
