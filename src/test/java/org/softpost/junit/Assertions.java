@@ -12,7 +12,7 @@ public class Assertions {
 
     @Test
     public void verifyTitle(){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Sagar\\Softwares\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.softpost.org");
         String title = driver.getTitle();
