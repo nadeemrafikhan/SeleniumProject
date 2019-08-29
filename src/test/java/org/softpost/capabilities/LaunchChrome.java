@@ -16,7 +16,7 @@ public class LaunchChrome {
 
     @Test
     public void testLaunch(){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Sagar\\Softwares\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
 
         //using chrome binary from specific location
